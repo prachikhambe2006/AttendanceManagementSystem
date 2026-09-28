@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+}
+
+h1 {
+  color: darkblue;
+}
+
+.form-box input,
+.form-box select {
+  padding: 6px;
+  margin-right: 5px;
+}
+
+.form-box button {
+  padding: 6px 12px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

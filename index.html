@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Attendance Management System</h1>
+
+  <div class="form-box">
+    <input type="text" id="name" placeholder="Student Name">
+    <select id="status">
+      <option value="Present">Present</option>
+      <option value="Absent">Absent</option>
+    </select>
+    <button onclick="markAttendance()">Mark Attendance</button>
+  </div>
+
+  <h2>Attendance List</h2>
+  <ul id="attendanceList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
